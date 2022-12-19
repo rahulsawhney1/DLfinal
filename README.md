@@ -64,6 +64,44 @@ Accuracy: 0.9534109816971714
 
 VGG trained on bad data: 
 
+Epoch [1/10], Step [151/151], Loss: 1.0390 
+
+Accuracy of the network on the 5000 validation images: 45.46211490424646 % 
+
+Epoch [2/10], Step [151/151], Loss: 5.1321 
+
+Accuracy of the network on the 5000 validation images: 47.210657785179016 % 
+
+Epoch [3/10], Step [151/151], Loss: 0.9390 
+
+Accuracy of the network on the 5000 validation images: 47.210657785179016 % 
+
+Epoch [4/10], Step [151/151], Loss: 0.8286 
+
+Accuracy of the network on the 5000 validation images: 47.543713572023314 % 
+
+Epoch [5/10], Step [151/151], Loss: 0.3831 
+
+Accuracy of the network on the 5000 validation images: 49.04246461282265 % 
+
+Epoch [6/10], Step [151/151], Loss: 1.1070 
+
+Accuracy of the network on the 5000 validation images: 48.8759367194005 % 
+
+Epoch [7/10], Step [151/151], Loss: 3.5813 
+
+Accuracy of the network on the 5000 validation images: 47.377185678601165 % 
+
+Epoch [8/10], Step [151/151], Loss: 0.6680 
+
+Accuracy of the network on the 5000 validation images: 47.96003330557868 % 
+
+Epoch [9/10], Step [151/151], Loss: 3.0120 
+
+Accuracy of the network on the 5000 validation images: 48.37635303913405 % 
+
+Epoch [10/10], Step [151/151], Loss: 0.6886 Accuracy of the network on the 5000 validation images: 46.960865945045796 %
+
 Accuracy: 0.49834958458245826
 
 Vision Transformer trained of "good" data:
