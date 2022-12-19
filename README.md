@@ -19,25 +19,45 @@ After seeing the performance of CNNs, we turned to Vision Transformers to see if
 
 Results:
 VGG trained on good data: 
+
 Epoch [1/10], Step [76/76], Loss: 11.2767
+
 Accuracy of the network on the 5000 validation images: 56.90515806988353 %
+
 Epoch [2/10], Step [76/76], Loss: 22.8624
+
 Accuracy of the network on the 5000 validation images: 65.3910149750416 %
+
 Epoch [3/10], Step [76/76], Loss: 0.5814
+
 Accuracy of the network on the 5000 validation images: 80.5324459234609 %
+
 Epoch [4/10], Step [76/76], Loss: 0.0147
+
 Accuracy of the network on the 5000 validation images: 88.6855241264559 %
+
 Epoch [5/10], Step [76/76], Loss: 1.6927
+
 Accuracy of the network on the 5000 validation images: 92.67886855241265 %
+
 Epoch [6/10], Step [76/76], Loss: 2.3883
+
 Accuracy of the network on the 5000 validation images: 76.87188019966722 %
+
 Epoch [7/10], Step [76/76], Loss: 1.0380
+
 Accuracy of the network on the 5000 validation images: 93.34442595673877 %
+
 Epoch [8/10], Step [76/76], Loss: 0.5567
+
 Accuracy of the network on the 5000 validation images: 75.04159733777038 %
+
 Epoch [9/10], Step [76/76], Loss: 1.1479
+
 Accuracy of the network on the 5000 validation images: 96.1730449251248 %
+
 Epoch [10/10], Step [76/76], Loss: 0.0181
+
 Accuracy of the network on the 5000 validation images: 91.68053244592346 %
 
 Accuracy: 0.9534109816971714
