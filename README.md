@@ -1,6 +1,10 @@
 # DLfinal
 language detection model using VGG
 
+PROJECT DESCRIPTION:
+
+The goal of our project was to be able to be able to differentiate different languages. After testing both image and sound, we settled on recognizing images. From there we decided to build three types of models. A VGG trained on similar looking languages, a VGG trained of different looking languages, and a Vision Transformer. We wanted to see if a CNN would be able to catch the small differences between languages like english and spanish, as well as it would be able to notice differeneces between english and chinese, two very different looking languages. Our initial hypothesis was that the CNN would not be able to, but we theorized that a vision transformer would be better able to capture these small differences. So we additionally built a vision transformer to attempt to better classify the differences, 
+
 INSTRUCTIONS:
 
 First, run datageneration.ipynb to generate the data. Current script saves 5000 images of all 11 available languages. In our testing, we found that google colab doesn't have enough memory to handle more than 1000 images of 6 classes, so consider changing those parameters before running.
@@ -108,3 +112,35 @@ Accuracy: 0.49834958458245826
 
 Vision Transformer trained of "good" data:
 
+Number of train samples:  151
+Number of test samples:  38
+Epoch:  0 | train loss: 1.8689 | test accuracy: 0.16
+Epoch:  0 | train loss: 1.7995 | test accuracy: 0.22
+Epoch:  0 | train loss: 1.7874 | test accuracy: 0.16
+Epoch:  1 | train loss: 1.7953 | test accuracy: 0.22
+Epoch:  1 | train loss: 1.8238 | test accuracy: 0.09
+Epoch:  1 | train loss: 1.8066 | test accuracy: 0.16
+Epoch:  2 | train loss: 1.8117 | test accuracy: 0.16
+Epoch:  2 | train loss: 1.7954 | test accuracy: 0.03
+Epoch:  2 | train loss: 1.7779 | test accuracy: 0.19
+Epoch:  3 | train loss: 1.8012 | test accuracy: 0.12
+Epoch:  3 | train loss: 1.7737 | test accuracy: 0.28
+Epoch:  3 | train loss: 1.7888 | test accuracy: 0.19
+Epoch:  4 | train loss: 1.7848 | test accuracy: 0.25
+Epoch:  4 | train loss: 1.7984 | test accuracy: 0.16
+Epoch:  4 | train loss: 1.7957 | test accuracy: 0.12
+Epoch:  5 | train loss: 1.8011 | test accuracy: 0.16
+Epoch:  5 | train loss: 1.7978 | test accuracy: 0.16
+Epoch:  5 | train loss: 1.7850 | test accuracy: 0.28
+Epoch:  6 | train loss: 1.8085 | test accuracy: 0.09
+Epoch:  6 | train loss: 1.7824 | test accuracy: 0.12
+Epoch:  6 | train loss: 1.8521 | test accuracy: 0.06
+Epoch:  7 | train loss: 1.7918 | test accuracy: 0.12
+Epoch:  7 | train loss: 1.8518 | test accuracy: 0.12
+Epoch:  7 | train loss: 1.7743 | test accuracy: 0.44
+Epoch:  8 | train loss: 1.8010 | test accuracy: 0.12
+Epoch:  8 | train loss: 1.7905 | test accuracy: 0.12
+Epoch:  8 | train loss: 1.8007 | test accuracy: 0.09
+Epoch:  9 | train loss: 1.8052 | test accuracy: 0.12
+Epoch:  9 | train loss: 1.7625 | test accuracy: 0.28
+Epoch:  9 | train loss: 1.7918 | test accuracy: 0.25
