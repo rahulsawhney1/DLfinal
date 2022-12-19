@@ -1,11 +1,14 @@
 # DLfinal
 language detection model using VGG
+
 INSTRUCTIONS:
+
 First, run datageneration.ipynb to generate the data. Current script saves 5000 images of all 11 available languages. In our testing, we found that google colab doesn't have enough memory to handle more than 1000 images of 6 classes, so consider changing those parameters before running.
 
 after the data has been generated, both the VGG an Vision Transorfmers can easily be created through their respective notebooks. 
 
 RESULTS: 
+
 When working with the data with vastly different scripts we obtained an accuracy of 0.95
 More specifically, our model was actualyl perfect at detecting 3 of our 6 languages: Chinese, Greek, and Hebrew
 The model was the worst at identifying English, incorectly classifiying english text as portugese 22 times out of the 104 instances of english text in our test set. 
@@ -17,7 +20,6 @@ From the results of working with these two different kinds of data, we see that 
 
 After seeing the performance of CNNs, we turned to Vision Transformers to see if this could be a possible solution to our problem. Unfortunately, vision transformers needed a lot more data than google colab would be able to handle to make accurate predictions. Our performance for the vision transformer model hovered around 16%, which was around equal to a random guess between the 6 classes we were training on. 
 
-Results:
 VGG trained on good data: 
 
 Epoch [1/10], Step [76/76], Loss: 11.2767
